@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Textual: Run gdx.py with Dev Mode",
+            "type": "executable",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/bin/textual",
+            "args": [
+                "run",
+                "--dev",
+                "${workspaceFolder}/grokdiff/gdx.py"
+            ],
+            "console": "integratedTerminal",
+        }
+    ]
+}
